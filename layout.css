@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.frame{
+    margin-top: 10%;
+    display: inline-block;
+    background-color: silver;
+    padding: 0.1%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rosybrown, -4px -4px 5px rosybrown;
+    
+}
+.frame h1{
+    font-style: italic;
+    font-size: 150%;
+}
+
+#screen{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: large;
+}
+table{
+    margin: auto;
+}
+
+button{
+    font-size: 150%;
+    background-color: rgb(4, 40, 160);
+    color: white;
+    width: 5vw;
+    border: 2px dotted grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(233, 244, 248);
+}
+button:hover{
+    text-shadow: 1px 1px 5px rgb(255, 255, 255),-1px -1px 5px white;
+    box-shadow: inset -3px -3px 5px rgb(211, 211, 255);
+}
